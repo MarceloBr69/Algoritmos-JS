@@ -45,4 +45,23 @@ awesome();
 console.log(x);
 
 //Se imprime:
-//15
+//15,15,10,15
+
+//Quinto ejercicio
+for(var i=0; i<15; i+=2) {
+    console.log(i);
+}
+
+//Se imprime:
+//0, 2, 4, 6, 8, 10, 12, 14
+
+//Sexto ejercicio:
+for(var i=0; i<3; i++) {
+   for(var j=0; j<2; j++) {
+       console.log(i*j);
+   }
+}
+//Se imprime:
+//0, 0, 0, 1, 0, 2
+
+//Septimo ejercicio
